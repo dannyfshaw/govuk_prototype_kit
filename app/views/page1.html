@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+<style>
+.boxed {
+  border: 1px solid black;
+}
+</style>
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+    </br>
+        <h2 class="heading-medium">Total Debt Amount :: £500</h2>
+
+  <form>
+    <div class="boxed">
+    <fieldset>
+    <h2 class="heading-medium">&nbspChoose Payment Period</h2>
+
+      <label class="block-label" for="radio-1">
+
+        <input id="radio-1" type="radio" name="radio-group" value="Debit Card">
+        Weekly
+      </label>
+      <label class="block-label" for="radio-2">
+        <input id="radio-2" type="radio" name="radio-group" value="credit Card">
+        Monthly
+      </label>
+    </Br>
+</div>
+
+    </fieldset>
+    </Br>
+    </Br>
+
+    <label class="form-label" for="ni-number">
+       Enter Amount ::
+       <span class="form-hint">Enter the amount you wish to pay each period::</span>
+     </label>
+    £ <input class="form-control" id="amount" type="text">
+  </form>
+
+</br>
+
+    </br>
+
+    <form>
+
+    </form>
+    <r>
+    <div class="boxed">
+    </Br>
+    <ol class="list list-number">
+    <li>Debt will be repaid in June 2027</li>
+
+  </ol>
+</div>
+</Br>
+<div>
+Choose Payment Type &nbsp
+<select class="form-control">
+  <option value="volvo">Debit Card</option>
+  <option value="saab">Credit Card</option>
+
+</select>
+</div>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
