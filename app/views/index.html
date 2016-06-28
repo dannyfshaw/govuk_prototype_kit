@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block content %}
-
+<script>
+function outputUpdate(vol) {
+	document.querySelector('#volume').value = vol;
+}
+</script>
 <main id="content" role="main">
   <div class="grid-row">
     <div class="column-two-thirds">
@@ -13,13 +17,20 @@
       <h1 class="heading-xlarge">Digital Debt Management</h1>
 <h3><a href="onbenefit">On Benefit</a><h3>
   <h3><a href="offbenefit">Off Benefit</a><h3>
-  <h3><a href="setUpDetails">Set Up Details</a></h3>
+<!--  <h3><a href="CitizenData">Citizen data</a></h3>
+  <h3><a href="DebtDetail">Debt Detail</a></h3>
+  <h3><a href="Entitlement">Entitlements</a></h3> -->
+  <h3><a href="AllContent">All Content</a></h3>
 
 
 
 
-      
+
+
+
+
       <p> Quick overview of the services this application support</p>
+
 
       <p></p>
       <p></p>
